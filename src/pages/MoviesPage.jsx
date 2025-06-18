@@ -7,7 +7,7 @@ const movies = [
     release_year: 2010,
     abstract:
       "A skilled thief is given a chance at redemption if he can successfully perform inception.",
-    image: "/public/movies_cover/inception.jpg",
+    image: "http://localhost:3000/img/inception.jpg",
     created_at: "2024-11-29T10:40:13.000Z",
     updated_at: "2025-05-22T10:55:27.000Z",
   },
@@ -19,9 +19,9 @@ const movies = [
     release_year: 1972,
     abstract:
       "The story of a powerful Italian-American crime family and their struggles.",
-    image: "/public/movies_cover/interstellar.jpg",
+    image: "http://localhost:3000/img/the_godfather.jpg",
     created_at: "2024-11-29T10:40:13.000Z",
-    updated_at: "2025-05-22T10:55:27.000Z",
+    updated_at: "2025-06-17T16:32:52.000Z",
   },
   {
     id: 3,
@@ -31,9 +31,9 @@ const movies = [
     release_year: 1997,
     abstract:
       "A romantic story set against the tragic sinking of the RMS Titanic.",
-    image: "/public/movies_cover/matrix.jpg",
+    image: "http://localhost:3000/img/titanic.jpg",
     created_at: "2024-11-29T10:40:13.000Z",
-    updated_at: "2025-05-22T10:55:27.000Z",
+    updated_at: "2025-06-17T16:32:52.000Z",
   },
   {
     id: 4,
@@ -43,9 +43,9 @@ const movies = [
     release_year: 1999,
     abstract:
       "A hacker discovers the truth about his reality and his role in the war against its controllers.",
-    image: "/public/movies_cover/the_godfather.jpg",
+    image: "http://localhost:3000/img/matrix.jpg",
     created_at: "2024-11-29T10:40:13.000Z",
-    updated_at: "2025-05-22T10:55:27.000Z",
+    updated_at: "2025-06-17T16:32:52.000Z",
   },
   {
     id: 5,
@@ -55,9 +55,9 @@ const movies = [
     release_year: 2014,
     abstract:
       "A team of explorers travels through a wormhole in space to save humanity.",
-    image: "/public/movies_cover/titanic.jpg",
+    image: "http://localhost:3000/img/interstellar.jpg",
     created_at: "2024-11-29T10:40:13.000Z",
-    updated_at: "2025-05-22T10:55:27.000Z",
+    updated_at: "2025-06-17T16:32:52.000Z",
   },
 ];
 
