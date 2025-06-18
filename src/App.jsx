@@ -10,7 +10,10 @@ export default function App() {
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route index element={<MoviesPage />} />
-          <Route path=":id" element={<MovieReviewsPage />} />{" "}
+          <Route path="movies">
+            <Route index element={<MoviesPage />} />
+            <Route path=":id" element={<MovieReviewsPage />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

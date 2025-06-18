@@ -30,7 +30,7 @@ export default function MovieCard({ movie }) {
           </div>
         </div>
         <div className="text-center">
-          <Link to={`${movie.id}`} className="btn btn-primary my-2">
+          <Link to={`/movies/${movie.id}`} className="btn btn-primary my-2">
             Vedi recensioni
           </Link>
         </div>

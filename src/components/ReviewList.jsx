@@ -1,70 +1,71 @@
-const movieDetails = {
-  id: 3,
-  title: "Titanic",
-  director: "James Cameron",
-  genre: "Romance",
-  release_year: 1997,
-  abstract:
-    "A romantic story set against the tragic sinking of the RMS Titanic.",
-  image: "http://localhost:3000/img/titanic.jpg",
-  created_at: "2024-11-29T10:40:13.000Z",
-  updated_at: "2025-06-17T16:32:52.000Z",
-  reviews: [
-    {
-      id: 3,
-      movie_id: 3,
-      name: "Grace",
-      vote: 5,
-      text: "A heartbreaking love story.",
-      created_at: "2024-11-29T10:40:13.000Z",
-      updated_at: "2025-06-17T16:32:52.000Z",
-      title: "Titanic",
-      director: "James Cameron",
-      genre: "Romance",
-      release_year: 1997,
-      abstract:
-        "A romantic story set against the tragic sinking of the RMS Titanic.",
-      image: "titanic.jpg",
-    },
-    {
-      id: 3,
-      movie_id: 3,
-      name: "Hank",
-      vote: 4,
-      text: "Beautiful visuals and a moving plot.",
-      created_at: "2024-11-29T10:40:13.000Z",
-      updated_at: "2025-06-17T16:32:52.000Z",
-      title: "Titanic",
-      director: "James Cameron",
-      genre: "Romance",
-      release_year: 1997,
-      abstract:
-        "A romantic story set against the tragic sinking of the RMS Titanic.",
-      image: "titanic.jpg",
-    },
-    {
-      id: 3,
-      movie_id: 3,
-      name: "Ivy",
-      vote: 3,
-      text: "A bit too melodramatic for my taste.",
-      created_at: "2024-11-29T10:40:13.000Z",
-      updated_at: "2025-06-17T16:32:52.000Z",
-      title: "Titanic",
-      director: "James Cameron",
-      genre: "Romance",
-      release_year: 1997,
-      abstract:
-        "A romantic story set against the tragic sinking of the RMS Titanic.",
-      image: "titanic.jpg",
-    },
-  ],
-};
+// const movieDetails = {
+//   id: 3,
+//   title: "Titanic",
+//   director: "James Cameron",
+//   genre: "Romance",
+//   release_year: 1997,
+//   abstract:
+//     "A romantic story set against the tragic sinking of the RMS Titanic.",
+//   image: "http://localhost:3000/img/titanic.jpg",
+//   created_at: "2024-11-29T10:40:13.000Z",
+//   updated_at: "2025-06-17T16:32:52.000Z",
+//   reviews: [
+//     {
+//       id: 3,
+//       movie_id: 3,
+//       name: "Grace",
+//       vote: 5,
+//       text: "A heartbreaking love story.",
+//       created_at: "2024-11-29T10:40:13.000Z",
+//       updated_at: "2025-06-17T16:32:52.000Z",
+//       title: "Titanic",
+//       director: "James Cameron",
+//       genre: "Romance",
+//       release_year: 1997,
+//       abstract:
+//         "A romantic story set against the tragic sinking of the RMS Titanic.",
+//       image: "titanic.jpg",
+//     },
+//     {
+//       id: 3,
+//       movie_id: 3,
+//       name: "Hank",
+//       vote: 4,
+//       text: "Beautiful visuals and a moving plot.",
+//       created_at: "2024-11-29T10:40:13.000Z",
+//       updated_at: "2025-06-17T16:32:52.000Z",
+//       title: "Titanic",
+//       director: "James Cameron",
+//       genre: "Romance",
+//       release_year: 1997,
+//       abstract:
+//         "A romantic story set against the tragic sinking of the RMS Titanic.",
+//       image: "titanic.jpg",
+//     },
+//     {
+//       id: 3,
+//       movie_id: 3,
+//       name: "Ivy",
+//       vote: 3,
+//       text: "A bit too melodramatic for my taste.",
+//       created_at: "2024-11-29T10:40:13.000Z",
+//       updated_at: "2025-06-17T16:32:52.000Z",
+//       title: "Titanic",
+//       director: "James Cameron",
+//       genre: "Romance",
+//       release_year: 1997,
+//       abstract:
+//         "A romantic story set against the tragic sinking of the RMS Titanic.",
+//       image: "titanic.jpg",
+//     },
+//   ],
+// };
 
 import ReviewCard from "./ReviewCard";
 import ReviewForm from "./ReviewForm";
 
-export default function ReviewList() {
+export default function ReviewList({ movieDetails }) {
+  console.log(movieDetails);
   return (
     <>
       <div className="container my-2">
